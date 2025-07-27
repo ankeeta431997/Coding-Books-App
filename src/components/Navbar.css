@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #c9c8c8;
+  color: #4d4d4d;
+  flex-wrap: nowrap;
+}
+
+.nav-left {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-icon {
+  cursor: pointer;
+}
+
+.nav-title {
+  margin: 0;
+  
+}
+
+/* Keep icons left and title right even on mobile */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: row;
+  }
+}
